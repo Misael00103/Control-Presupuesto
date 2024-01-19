@@ -6,3 +6,5 @@
 
 ![image](https://github.com/Misael00103/Control-Presupuesto/assets/68718644/3832f4c5-0081-441c-8068-20e863d9efc2)
 ![image](https://github.com/Misael00103/Control-Presupuesto/assets/68718644/074cb9af-e554-447f-94ef-9a317aad1363)
+
+![image](https://github.com/Misael00103/Control-Presupuesto/assets/68718644/16ff9335-4ed2-4c52-8b02-2dd3c7d55ee9)
