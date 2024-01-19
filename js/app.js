@@ -1,3 +1,23 @@
+let cargarApp = () => {
+    cargarCabecero();
+    cargarIngresos();
+    cargarEgresos();
+    verificarAnchoVentana(); // Agrega esta llamada para configurar el estado inicial
+}
+
+function verificarAnchoVentana() {
+    let anchoVentana = window.innerWidth;
+    
+    // Mostrar u ocultar formulario de agregar según el ancho de la ventana
+    if (anchoVentana <= 600) {
+        document.getElementById('forma').style.display = 'none';
+    } else {
+        document.getElementById('forma').style.display = 'block';
+    }
+}
+
+// Agrega un event listener para el cambio de tamaño de la ventana
+window.addEventListener('resize', verificarAnchoVentana);
 const ingresos = [
     new Ingreso('Salario', 2100.00),
     new Ingreso('Venta coche', 1500)
